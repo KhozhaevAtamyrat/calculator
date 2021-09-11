@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-div{
+    width: 182px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-light, .btn-clear{
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+}
+
+.field{
+    padding: 6px;
+    border-radius: 5px;
+    width: 135px;
+    height: 40px;
+    font-size: 15px;
+    margin: 1px;
+    background-color: rgba(248,249,250,255);
+}
+
+input{
+    border: 0;
+}
